@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    }
+    .window {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    }
+    .back-button {
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+    }
+
+    #player {
+        display: flex;
+        justify-content: left;
+        padding: 20px;
+        width: 600px; /* Установили ширину плеера в 200 пикселей */
+        height: 900px; /* Установили высоту плеера в 300 пикселей */
+    }
+    
